@@ -9,3 +9,6 @@ IMPORTANT: Existing localStorage keys of v2.2 are unchanged. Flight Operations u
 Safety: This is an operational record tool, not an aviation authorization or telemetry connection.
 
 Test on a separate browser or after backup before using for real missions.
+
+
+v2.3.2: Unified navigation under company title; removed old arrow links on travel and quotes. No localStorage keys changed.
