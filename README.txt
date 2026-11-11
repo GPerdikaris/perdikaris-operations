@@ -1,14 +1,10 @@
-PERDIKARIS AERIAL Operations Toolkit v2.3
+PERDIKARIS AERIAL Operations Toolkit v2.3.3
 
-Upload ALL files to the GitHub Pages repository root (replace matching existing files and add flight.html).
+- Identical company header and drone outline icon across all four pages.
+- Unified navigation under company heading.
+- Updated Service Worker to prefer network for HTML/app files, with offline cached fallback.
+- Existing localStorage keys and business functions unchanged.
 
-New Flight Operations tab: Missions, Quick/Professional Checklists, Flight Logs, Equipment/Battery Tracking, Maintenance, ICS Calendar export, local JSON backup/restore.
+Deployment: Back up your data. Upload ALL files to the SAME GitHub Pages repository and SAME folder used by the live app, overwriting the existing files. Open https://gperdikaris.github.io/perdikaris-operations/ (not an old file URL or previous folder). On Windows, Ctrl+Shift+R to refresh, and close/reopen installed PWA. Check GitHub Pages deployment status.
 
-IMPORTANT: Existing localStorage keys of v2.2 are unchanged. Flight Operations uses perdikaris-flight-operations-v23. Project Intake uses perdikaris-project-intake-v1. Back up existing quote and project data before deploying.
-
-Safety: This is an operational record tool, not an aviation authorization or telemetry connection.
-
-Test on a separate browser or after backup before using for real missions.
-
-
-v2.3.2: Unified navigation under company title; removed old arrow links on travel and quotes. No localStorage keys changed.
+Note: The browser stores local data per origin. Do not clear site data or uninstall before exporting backups.
