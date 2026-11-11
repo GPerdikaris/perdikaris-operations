@@ -1,4 +1,4 @@
-PERDIKARIS AERIAL Operations Toolkit v2.1
-Upload ALL files to the ROOT of the perdikaris-operations repository.
-Backup data before upgrading. After uploading, refresh app (PWA service worker may require closing and reopening).
-Data stays on each device. Backups are plain JSON containing client data: store securely. Logo is user supplied.
+PERDIKARIS AERIAL Operations Toolkit v2.2 — Project Intake
+Upload all files to repository root and commit.
+Preserves existing localStorage keys from v2.1.
+Project intake records use a separate localStorage key and are NOT included in the existing v2.1 backup. Export important intake records as PDF.
